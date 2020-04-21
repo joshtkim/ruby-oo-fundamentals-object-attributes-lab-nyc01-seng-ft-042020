@@ -1,4 +1,10 @@
 class Person
+
+    def initialize(name=nil, job=nil)
+        @name = name
+        @job = job
+    end
+
     def name
         @name
     end
